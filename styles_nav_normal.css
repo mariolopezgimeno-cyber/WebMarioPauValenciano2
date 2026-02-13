@@ -1,0 +1,146 @@
+/* =========================
+   Proyecto Mario - Autores Valencianos (PAU)
+   CSS CLARO (sin fondo oscuro)
+   ========================= */
+
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base */
+html, body{
+  background: #ffffff !important;
+  color: #111827;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Layout */
+header, nav, main, footer{
+  width: min(1000px, 92%);
+  margin: 0 auto;
+}
+
+/* Header */
+header{
+  margin-top: 18px;
+  padding: 28px 18px;
+  text-align: center;
+  background: linear-gradient(135deg, #eaf2ff, #ffffff);
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+}
+
+header h1{
+  font-size: 2.1rem;
+  margin-bottom: 8px;
+}
+
+header p{ opacity: .85; }
+
+/* Nav */
+nav{
+  margin-top: 14px;
+  padding: 12px 0;
+  text-align: center;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  position: static;
+  top: auto;
+  z-index: auto;
+}
+
+nav a{
+  display: inline;
+  margin: 0 10px;
+  padding: 0;
+  border: none;
+  background: none;
+  color: #3b3bbd;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+nav a:hover{
+  text-decoration: underline;
+  background: none;
+  border-color: transparent;
+  color: #1f2937;
+}
+
+/* Main */
+main{ margin: 18px auto 0; }
+
+/* Sections */
+section{
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 18px;
+  margin: 16px 0;
+  box-shadow: 0 10px 22px rgba(0,0,0,.06);
+}
+
+section h2{
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 4px solid #111827;
+}
+
+section h3{
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+/* Text spacing */
+p{ margin: 10px 0; }
+ul, ol{ margin: 10px 0 10px 22px; }
+li{ margin: 6px 0; }
+
+/* Intro */
+.intro{ border-left: 8px solid #3b3bbd; }
+
+/* Images */
+.autor img{
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  display: block;
+  margin: 14px auto;
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 12px 24px rgba(0,0,0,.12);
+}
+
+/* Estellés */
+.estelles{ border-top: 10px solid #ff7a00; }
+.estelles h2{ border-bottom-color: #ff7a00; }
+
+/* Fuster */
+.fuster{ border-top: 10px solid #00b7c2; }
+.fuster h2{ border-bottom-color: #00b7c2; }
+
+/* Comparativa & PAU */
+.comparativa{ border-left: 8px solid #7c3aed; }
+.pau{ border-left: 8px solid #22c55e; }
+
+/* Footer */
+footer{
+  margin: 18px auto 28px;
+  text-align: center;
+  padding: 18px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+}
+
+/* Responsive */
+@media (max-width: 600px){
+  header h1{ font-size: 1.7rem; }
+  nav a{ padding: 8px 10px; margin: 6px 4px; }
+  section{ padding: 16px; }
+}
